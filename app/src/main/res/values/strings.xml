@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trabalho_Mobile_Caio_Bisesti</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select">Tipo de exercícios</string>
+    <string name="select_unidade">Unidade de velocidade</string>
+    <string name="select_orientacaoMapa">Orientação do mapa</string>
+    <string name="select_tipoMapa">Tipo de mapa</string>
+</resources>

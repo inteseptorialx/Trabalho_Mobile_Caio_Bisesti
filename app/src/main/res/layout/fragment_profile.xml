@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    tools:ignore="ExtraText">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <Button
+        android:id="@+id/editar_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/baseline_edit_24"
+        />
+
+
+    <ImageView
+        android:id="@+id/foto_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="584dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nome_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="620dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/foto_perfil_txt"
+        android:text="Nome Sobrenome"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/sexo_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/foto_perfil_txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-568dp"
+        android:text="Masculino"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/Peso_numero_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sexo_perfil_txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="115"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/Peso_unidade_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sexo_perfil_txt"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/Peso_numero_perfil_txt"
+        android:text="Kg"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/altura_numero_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Peso_numero_perfil_txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="185"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/altura_unidade_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Peso_numero_perfil_txt"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/altura_numero_perfil_txt"
+        android:text="Cm"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/data_nascimento_perfil_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altura_numero_perfil_txt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="15/10/2001"
+        android:textSize="35dp" />
+
+
+
+</RelativeLayout>
